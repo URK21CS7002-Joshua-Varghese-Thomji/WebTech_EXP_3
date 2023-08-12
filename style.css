@@ -1,0 +1,99 @@
+/* style.css */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: blue;
+  padding: 16px;
+}
+
+.hero-img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.about {
+  background-color: peachpuff;
+  padding: 40px;
+}
+
+.about-header {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.about-text {
+  text-align: justify;
+  font-size: 18px;
+}
+
+.features {
+  display: flex;
+}
+
+.feature {
+  width: 33.33%;
+  position: relative;
+}
+
+.feature-img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.feature-text {
+  /* display: inline-block; */
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.item {
+  display: flex;
+}
+
+.item h2 {
+  font-size: 30px;
+}
+
+.item img {
+  width: 50%;
+}
+
+.item-text {
+  background-color: peachpuff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-text div {
+  margin: 50px;
+  font-size: 20px;
+}
+
+.item-text h2 {
+  margin-bottom: 10px;
+}
+
+.bottom-0 {
+  bottom: 0;
+  top: auto;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
